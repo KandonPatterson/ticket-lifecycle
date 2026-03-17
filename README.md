@@ -1,21 +1,17 @@
-# ticket-lifecycle
+# Ticket Lifecycle
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
+This guide shows you how to install osTicket v1.15.8 along with its prerequisites for lab/testing purposes on Windows 10 (21H2).<br />
 
 
-<h2>Video Demonstration</h2>
+<h2>1. Prepare the Installation Files</h2>
 
-- ### [YouTube: How to create, work, and resolves tickets within osTicket](https://www.youtube.com)
-
-<h2>Environments and Technologies Used</h2>
-
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+- Download and extract osTicket-Installation-Files.zip
+- Extract the file to your Desktop
+- The folder should be named: C:\Users<YourUsername>\Desktop\osTicket-Installation-Files
 
 <h2>Operating Systems Used </h2>
 
