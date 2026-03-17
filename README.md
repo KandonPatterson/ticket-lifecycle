@@ -38,12 +38,19 @@ File: rewrite_amd64_en-US.msi
 
 *Create PHP Directory: C:\PHP
 *Unzip PHP 7.3.8 ~~ <img width="237" height="22" alt="image" src="https://github.com/user-attachments/assets/08302827-9ca3-4902-a587-9a33331ef039" />
+
 File: php-7.3.8-nts-Win32-VC15-x86.zip
+
 *Extract into: C:\PHP
+
 *Install 'Visual C++ Redistributable'
+
 *File: VC_redist.x86.exe
+
 *Use Typical Setup
+
 *After installation, run the MySQL Configuration Wizard
+
 *Choose: Standard Configuration
   -Set username: root
   -Set password: root
