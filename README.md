@@ -25,7 +25,7 @@ This guide shows you how to install osTicket v1.15.8 along with its prerequisite
 <img width="381" height="339" alt="image" src="https://github.com/user-attachments/assets/b30bee1a-0377-45a7-a255-225e7ee9116c" />
 
 
-<h2>Lifecycle Stages</h2>
+<h2>3. Install Requied Components</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
