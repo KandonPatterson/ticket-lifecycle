@@ -40,9 +40,9 @@ File: rewrite_amd64_en-US.msi
 
 
 
-*Create PHP Directory: C:\PHP
+* Create PHP Directory: C:\PHP
 
-*Unzip PHP 7.3.8 ~~ <img width="237" height="22" alt="image" src="https://github.com/user-attachments/assets/08302827-9ca3-4902-a587-9a33331ef039" />
+Unzip PHP 7.3.8 ~~ <img width="237" height="22" alt="image" src="https://github.com/user-attachments/assets/08302827-9ca3-4902-a587-9a33331ef039" />
 
 File: php-7.3.8-nts-Win32-VC15-x86.zip
 
