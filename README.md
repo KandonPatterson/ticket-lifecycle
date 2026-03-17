@@ -7,22 +7,23 @@
 This guide shows you how to install osTicket v1.15.8 along with its prerequisites for lab/testing purposes on Windows 10 (21H2).<br />
 
 
-<h2>1. Prepare the Installation Files</h2>
+<h2>📁1. Prepare the Installation Files</h2>
 
 - Download and extract osTicket-Installation-Files.zip
 - Extract the file to your Desktop
 - The folder should be named: C:\Users<YourUsername>\Desktop\osTicket-Installation-Files
 
-<h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+<h2>🌐 2. Install IIS with CGI</h2>
 
-<h2>Ticket Lifecycle Stages</h2>
+* Open Control Panel → Programs → Turn Windows features on or off
+* Enable the following:
+  - Internet Information Services
+  - World Wide Web Services
+  - Application Development Features
+  - [X] CGI
+<img width="381" height="339" alt="image" src="https://github.com/user-attachments/assets/b30bee1a-0377-45a7-a255-225e7ee9116c" />
 
-- Intake
-- Assignment and Communication
-- Working the Issue
-- Resolution
 
 <h2>Lifecycle Stages</h2>
 
