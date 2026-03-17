@@ -34,6 +34,7 @@ File: PHPManagerForIIS_V1.5.0.msi
 *Install URL Rewrite Module
 
 File: rewrite_amd64_en-US.msi
+
 <img width="636" height="355" alt="image" src="https://github.com/user-attachments/assets/a8ea0105-80f7-4e9c-9031-5428b6af8df5" />
 
 *Create PHP Directory: C:\PHP
@@ -41,15 +42,15 @@ File: rewrite_amd64_en-US.msi
 
 File: php-7.3.8-nts-Win32-VC15-x86.zip
 
-*Extract into: C:\PHP
+* Extract into: C:\PHP
 
-*Install 'Visual C++ Redistributable'
+* Install 'Visual C++ Redistributable'
 
-*File: VC_redist.x86.exe
+* File: VC_redist.x86.exe
 
-*Use Typical Setup
+* Use Typical Setup
 
-*After installation, run the MySQL Configuration Wizard
+* After installation, run the MySQL Configuration Wizard
 
 *Choose: Standard Configuration
   -Set username: root
