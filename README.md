@@ -38,6 +38,8 @@ File: rewrite_amd64_en-US.msi
 <img width="636" height="355" alt="image" src="https://github.com/user-attachments/assets/a8ea0105-80f7-4e9c-9031-5428b6af8df5" />
 
 
+
+
 *Create PHP Directory: C:\PHP
 
 *Unzip PHP 7.3.8 ~~ <img width="237" height="22" alt="image" src="https://github.com/user-attachments/assets/08302827-9ca3-4902-a587-9a33331ef039" />
