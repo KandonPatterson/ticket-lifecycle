@@ -58,9 +58,31 @@ File: rewrite_amd64_en-US.msi
     -Set username: root
     -Set password: root
 
+⚙️ 4. Configure IIS and PHP
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+* Open IIS Manager as Administrator
+* Register PHP with IIS:
+  - Click your server name
+  - Open PHP Manager
+  - Click: Register new PHP version
+  - Path: C:\PHP\php-cgi.exe
+
+<img width="664" height="541" alt="image" src="https://github.com/user-attachments/assets/43b02927-3745-4b83-b364-30ec58e1f7e9" />
+
+* Reload IIS
+  - Click IIS Manager:
+  - Right-click your server → click Stop
+  - Then Start
+
+ 📦 5. Install osTicket v1.15.8
+ * From osTicket-Installation-Files folder, unzip: osTicket-v1.15.8.zip
+ * Copy the upload folder to: C:\inetpub\wwwroot\
+
+   <img width="411" height="151" alt="image" src="https://github.com/user-attachments/assets/3dce5dca-5771-4e7e-b74f-38b863f71e6a" />
+* Rename: C:\inetpub\wwwroot\upload → C:\inetpub\wwwroot\osTicket
+* Reload IIS again
+  - Click Start → Stop
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
