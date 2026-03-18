@@ -83,16 +83,60 @@ File: rewrite_amd64_en-US.msi
 * Reload IIS again
   - Click Start → Stop
 
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+🌍 6. Launch osTicket in Browser
+* Click IIS Manager
+* Expand Sites → Default Web Site → osTicket
+* On the right, click: Browse *:80 (http)
+  
+<img width="855" height="411" alt="image" src="https://github.com/user-attachments/assets/151766cd-de56-46bb-877a-7b44810c1981" />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+In the browser, you’ll see some missing PHP extensions*
+
+🧠 7. Enable Missing PHP Extensions
+
+* Click IIS Manager
+* Go to: Sites → Default Web Site → osTicket
+* Double-click PHP Manager
+* Click: Enable or disable an extension
+  <img width="378" height="157" alt="image" src="https://github.com/user-attachments/assets/d3c23c8e-6181-4234-9fa6-6c7ac376b491" />
+
+* Enable the following:
+  - php_imap.dll
+  - php_intl.dll
+  - php_opcache.dll
+* Refresh the osTicket browser page to verify changes
+
+🔒 9. Set Permissions on the Configuration File
+* Right-click ost-config.php → Properties → Security
+* Click Advanced
+* Click Disable inheritance → Remove all entries
+  <img width="705" height="478" alt="image" src="https://github.com/user-attachments/assets/3c383c42-578a-42a0-94d6-fef369e9792c" />
+
+* Add new permission:
+  - User: Everyone
+  - Permission: Full Control
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
