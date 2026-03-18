@@ -98,7 +98,8 @@ In the browser, you’ll see some missing PHP extensions*
 * Go to: Sites → Default Web Site → osTicket
 * Double-click PHP Manager
 * Click: Enable or disable an extension
-  <img width="378" height="157" alt="image" src="https://github.com/user-attachments/assets/d3c23c8e-6181-4234-9fa6-6c7ac376b491" />
+
+ <img width="378" height="157" alt="image" src="https://github.com/user-attachments/assets/d3c23c8e-6181-4234-9fa6-6c7ac376b491" />
 
 * Enable the following:
   - php_imap.dll
@@ -110,7 +111,8 @@ In the browser, you’ll see some missing PHP extensions*
 * Right-click ost-config.php → Properties → Security
 * Click Advanced
 * Click Disable inheritance → Remove all entries
-  <img width="705" height="478" alt="image" src="https://github.com/user-attachments/assets/3c383c42-578a-42a0-94d6-fef369e9792c" />
+
+ <img width="705" height="478" alt="image" src="https://github.com/user-attachments/assets/3c383c42-578a-42a0-94d6-fef369e9792c" />
 
 * Add new permission:
   - User: Everyone
