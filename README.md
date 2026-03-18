@@ -53,7 +53,7 @@ File: rewrite_amd64_en-US.msi
 
 * After installation, run the MySQL Configuration Wizard
 
-*Choose: Standard Configuration
+* Choose: Standard Configuration
   -Set username: root
   -Set password: root
 
