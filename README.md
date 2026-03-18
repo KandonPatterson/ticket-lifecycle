@@ -117,6 +117,52 @@ In the browser, you’ll see some missing PHP extensions*
 * Add new permission:
   - User: Everyone
   - Permission: Full Control
+ 
+🛠️ 10. Continue osTicket Setup in Browser
+* Back in your browser, click Continue
+* Fill out:
+  - Helpdesk Name
+  - Default email address (used to receive tickets)
+
+<img width="736" height="238" alt="image" src="https://github.com/user-attachments/assets/a935da4e-b792-4be8-9225-632be117d305" />
+
+🗄️ 11. Create MySQL Database using HeidiSQL
+* Install HeidiSQL from the osTicket-Installation-Files folder
+* Open HeidiSQL
+
+<img width="633" height="441" alt="image" src="https://github.com/user-attachments/assets/ce33fa2e-cc66-47da-b743-e656b66aa5e5" />
+
+* Create a new session:
+  - Username: root
+  - Password: root
+
+* Click Connect
+* Click Create a database
+
+🧪 12. Complete Web Installer
+
+* Return to the 'osTicket web setup'
+* Use:
+  - Database Name: osTicket
+  - Username: root
+  - Password: root
+
+<img width="742" height="334" alt="image" src="https://github.com/user-attachments/assets/78d083bd-c8ec-46a5-9800-ca632d312a6e" />
+
+* Click Install Now
+🎉 13. Final URLs
+
+* Admin Panel: http://localhost/osTicket/scp/login.php
+* End User Ticket Portal: http://localhost/osTicket/
+
+🧹 14. Cleanup
+* Delete setup folder:
+  C:\inetpub\wwwroot\osTicket\setup
+
+* Set permissions to "Read" only on: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+✅ Tutorial Completed ~~ osTicket is now fully installed, configured, and ready to use!
+
 
 
 
